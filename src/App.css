@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+.navbar.navbar-fixed-bottom {
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.arrow {
+
+  width: 0;
+  height: 0;
+  float: right;
+  margin-top: 5px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  display: inline-block;
+
+}
+.arrow-up {
+
+  border-top: 10px solid white;
+}
+
+.arrow-down {
+
+  border-top: 10px solid white;
+}
